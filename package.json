@@ -1,0 +1,36 @@
+{
+  "name": "my-first-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Probot app",
+  "author": "Adam Skoufis",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^12.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "msw": "^2.1.7",
+    "smee-client": "^1.2.2"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "volta": {
+    "node": "20.11.0",
+    "pnpm": "8.15.1"
+  }
+}
